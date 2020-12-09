@@ -1,14 +1,14 @@
-print('Please, enter three numbers:')
-fizzNumber = int(input('Enter first number!'))
-buzzNumber = int(input('Enter second number!'))
-thirdNumber = int(input('Enter first number!'))
+print('Please, enter three numbers!')
+fizz = int(input('Enter first number: '))
+buzz = int(input('Enter second number: '))
+count = int(input('Enter first number: '))
 
-for num in range(1, thirdNumber + 1):
-    if num % fizzNumber == 0 and num % buzzNumber == 0:
+for num in range(1, count + 1):
+    if num % fizz == 0 and num % buzz == 0:
         print('FB')
-    elif num % fizzNumber == 0:
+    elif num % fiz == 0:
         print('F')
-    elif num % buzzNumber == 0:
+    elif num % buzz == 0:
         print('B')
     else:
         print(num)
