@@ -22,11 +22,11 @@ def get_coordinates(flat_number, stages, flat_per_stage):
     # """Задание 1"""
 
 
-# ----------------------------------
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-
-    print(get_coordinates(75, 5, 4))
+	# flat_number = input("Enter your flat: ")
+	# stages = input("Enter stages: ")
+	# flat_per_stage = input("Enter flat on the floor: ")
+    print(get_coordinates(40, 2, 10))
 
     # ----------------------------------
     """Задача 1. Курьер
